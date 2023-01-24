@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+   }
+.main-2{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 500px;
+    background-image: url(Assest/background-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.underline-1{
+    width: 200px;
+    height: 10px;
+    background-image: linear-gradient(to right,red 50%,white 60%);
+}
+.heading-our-values,.heading-Defence-Installation{
+    margin: 10px 10px;
+}
+.our-values-content,.Building-Defence{
+    margin: 100px 10px;
+    width: 650px;
+    height: 250px;
+    font-size: 18px;
+}
+.firm-office,.Defence-main-2-Jets{
+    margin: 50px 880px;
+    border-top:4px solid black; border-left: 4px solid black;
+    border-bottom: 4px solid red; border-right: 4px solid red;
+}
+.main-3{
+    position: relative;
+    margin: 150px 0;
+}
+.main-3 h2{
+    position: absolute;
+    top: -70px;
+    left: 230px;
+}
+.before-line{
+    position: absolute;
+    left: 60px;
+    top: -50px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+}
+.view-more{
+    width: 120px;
+    height: 40px;
+    border: 1px solid red;
+    line-height: 40px;
+    margin: 0 700px;
+    text-align: center;
+}
+.view-more a{
+    color: red;
+    text-decoration: none;
+}
+.view-more:hover,.view-more a:hover{
+    background-color: red;
+    color: white;
+}
+.main-5{
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background-color: #36383d;
+    padding: 15px 10px;
+}
+.stoke-value{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin: 10px 0px;
+    background-image: url(Assest/stoke-value-2.png);
+    border-top:4px solid red; border-left: 4px solid red;
+    border-bottom: 4px solid black; border-right: 4px solid black;
+}
+.main-5 h2{
+    color: white;
+}
+.underline-1-stoke{
+    width: 150px;
+}
+.underline-1-financial-corner{
+    width: 250px;
+}
+.finance-pdf{
+    width: 600px;
+    height: 80px;
+    background-color: aqua;
+    margin-top: 20px;
+    background-image: linear-gradient(120deg,white 60%,red 40%);
+    line-height: 80px;
+    font-size: 25px;
+}
+.finance-p1{
+    display: inline;
+    color: red;
+}
+.finance-p2{
+    display: inline;
+    color: white;
+    margin-left: 25px;
+}
+.footer-1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.foot-link:hover{
+color: red;
+transform: translate3d(-5px,1px,-3px);
+text-shadow: 2px 2px 4px red;
+}
+.footer-2{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #36383d;
+}
+.foot-2{
+    display: inline;
+    line-height: 80px;
+    color: white;
+}
+.cc{
+    margin-left: 120px;
+}
+.cc-privacy-divider{
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 35px;
+    margin: 25px 6px;
+    background-color: white;
+}
+.privacy-policy{
+    position: absolute;
+    margin-left: 15px;
+}
+.D-and-D{
+    position: absolute;
+    margin-left: 160px;
+}
+.icons{
+    position: absolute;
+}
+.icons-1{
+    margin-left: 700px
+}
+.icons-2{
+    margin-left: 740px;
+}
+.icons-3{
+    margin-left: 780px;
+}
+    /*                                               Who We Are                                     */
+.WWA-bg-img{
+    position: relative;
+    width: 100%;
+    height: 672px;
+    background-image: url(Assest/who-we-are.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.WWA-heading{
+    margin: 200px 50px;
+    position: absolute;
+    opacity: 0.8;
+}
+.AboutUs-carousel-1{
+    background-color: #36383d;
+    height: 80px;
+    width: 100%;
+}
+.AboutUs-items{
+    line-height: 80px;
+} 
+.AboutUs-items:hover{
+background-color: red;
+}
+.main-WWA-2{
+    position: relative;
+    margin: 10px 0;
+    height: 613px;
+    background-image: url(Assest/WWA-background-3.jpg);
+    background-size: cover;
+}
+.heading-AboutUs{
+    position: absolute;
+    font-weight: 600;
+    top: 50px;
+    left: 20px;
+}
+.AboutUs-content{
+    position: absolute;
+    margin: 200px 20px;
+    width: 700px;
+    font-size: 18px;
+    font-weight: 400;
+} 
+.main-WWA-3{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+.main-WWA-4{
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-color: #36383d;
+}
+.underline-2{
+    width: 300px;
+    height: 10px;
+    background-image: linear-gradient(to right,red 50%,white 60%);
+}
+
+/*                                      Defence Installation                                          */
+.carousel-item img {
+  width: 100%;
+  height: 90vh;
+}
+.Defence-main-2,.Power-main-2,.Transportation-main-2,.Urban-Infrastructure-main-2 {
+  background-color: #36383d;
+  height: 80px;
+  width: 100%;
+}
+.Sectors-items {
+  line-height: 80px;
+}
+.Sectors-items:hover {
+  background-color: red;
+}
+.Sector-main-3-bg {
+  width: 100%;
+  height: 90vh;
+  background-image: url(Assest/Defence-Installation-background-1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.Defence-KeyArea-img_1{
+  background-image: url(Assest/Defence-Installation-borderRoad.jpg);
+}
+.Defence-KeyArea-img_2{
+  background-image: url(Assest/Defence-Installation-armyCamps.jpeg);
+}
+.Defence-KeyArea-img_3{
+  background-image: url(Assest/Defence-Installation-armySchool-1.jpg);
+}
+.Defence-KeyArea-img_4{
+  background-image: url(Assest/Defence-Installation-armyQuaters.jpg);
+}
+.Defence-KeyArea-img_5{
+  background-image: url(Assest/Defence-Installation-shipyard-1.jpg);
+}
+.Defence-KeyArea-img_6{
+  background-image: url(Assest/Defence-Installation-ArmyPostguard.jpg);
+}
+.Sectors-keyArea-carousel-item{
+  background-repeat: no-repeat;
+  height: 340px;
+  background-size: cover;
+}
+.Sectors-keyArea-text{
+  display: inline-block;
+  margin: 280px 20px;
+}
+.Sectors-keyProject-carousel-item{
+  width: 350px;
+  height: 250px;
+  border: 1px solid red;
+  font-size: larger;
+}
+.Sectors-keyProject-carousel-item:hover{
+  background-color: #36383d;
+  color: white;
+  opacity: 0.5;
+}
+.Power-KeyArea-img_1{
+    background-image: url(Assest/power-nuclearPower.jpg);
+}
+.Power-KeyArea-img_2{
+    background-image: url(Assest/Power-electricEnery.webp);
+}
+.Power-KeyArea-img_3{
+    background-image: url(Assest/Power-geothermalEnergy.jpg);
+}
+.Power-KeyArea-img_4{
+    background-image: url(Assest/Power-hydropower_plant-1.jpg);
+}
+.Power-KeyArea-img_5{
+    background-image: url(Assest/Power-solarEnergy.jpg);
+}
+.Power-KeyArea-img_6{
+    background-image: url(Assest/Power-windMill.jpg);
+}
+/*                                              Landmark Projects                                               */
+.National-projects-main-1{
+    width: 100%;
+    height: 90vh;
+    background-image: url(Assest/National-Landmark-Project-bg-1.jpg);
+    background-size: cover;
+}
+.National-Projects-main-2{
+    width: auto;
+    height: 90vh;
+   background-image: url(Assest/National-Landmark-Project-bg-6.jpg);
+   background-size: cover;
+}
+.National-Project-main-3_item-1{
+    height: 90vh;
+    background-image: url(Assest/National-Landmark-Project_Project-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.National-Project-main-3_item-1 p{
+    margin: 600px 20px;
+    font-weight: 400;
+}
+.National-Project-main-3_item-2{
+    height: 60vh;
+    background-image: url(Assest/National-Landmark-Project_Project-3.webp);
+    background-size: cover;
+    background-position: top;
+}
+.National-Project-main-3_item-2 p,.National-Project-main-3_item-3 p,.National-Project-main-3_item-5 p,.National-Project-main-3_item-6 p{
+    margin: 380px 20px;
+    font-weight: 400;
+}
+.National-Project-main-3_item-3{
+    background-image: url(Assest/National-Landmark-Project_Project-4.jpg);
+}
+.National-Project-main-3_item-3,.National-Project-main-3_item-5,.National-Project-main-3_item-6,.International-Project-main-3_item-2,.International-Project-main-3_item-3{
+    height: 60vh;
+    background-size: cover;
+}
+.National-Project-main-3_item-4{
+    height: 80vh;
+    background-image: url(Assest/National-Landmark-Project_Project-5.jpg);
+    background-size: cover;
+}
+.National-Project-main-3_item-4 p{
+    margin: 530px 20px;
+    font-weight: 400;
+}
+.National-Project-main-3_item-5{
+    background-image: url(Assest/National-Landmark-Project_Project-6.jpg);
+}
+.National-Project-main-3_item-6{
+    background-image: url(Assest/National-Landmark-Project_Project-7.webp);
+}
+.National-Project-main-3_item-7,.National-Project-main-3_item-8,.National-Project-main-3_item-9{
+    height: 50vh;
+    background-size: cover;
+}
+.National-Project-main-3_item-7 p,.National-Project-main-3_item-8 p,.National-Project-main-3_item-9 p{
+    margin: 315px 10px;
+    font-weight: 400;
+}
+.National-Project-main-3_item-7{
+    background-image: url(Assest/National-Landmark-Project_Project-9.jpg);
+}
+.National-Project-main-3_item-8{
+    background-image: url(Assest/Transportation-metro.jpg);
+}
+.National-Project-main-3_item-9{
+    background-image: url(Assest/National-Landmark-Project_Project-10.webp);
+}
+    /*                                   International Projects                                           */
+.International-projects-main-1{
+    height: 100vh;
+    background-image: url(Assest/International-Landmark-Project-bg-1.jpeg);
+    background-size: cover;
+}
+.International-Project-main-3_item-1{
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Assest/International-Landmark-Project_Project-1.jpg);
+}
+.International-Project-main-3_item-2{
+    background-image: url(Assest/International-Landmark-Project_Project-2.jpg);
+}
+.International-Project-main-3_item-3{
+    background-image: url(Assest/International-Landmark-Project_Project-3.jpg);
+}
+.International-Project-main-3_item-4{
+    height: 90vh;
+    background-size: cover;
+    background-image: url(Assest/International-Landmark-Project_Project-4.jpg);
+}
+/*                                               Contact Us                                               */
+.contact_us-main-1{
+    height: 89vh;
+}
+.heading-Contact_Us{
+    margin-top: -600px;
+    z-index: 20;
+}
+.contact_us-main-2{
+    height: 96vh;
+    background-size: cover;
+    background-image: url(Assest/Contact_Us-bg-2.jpg);
+}
